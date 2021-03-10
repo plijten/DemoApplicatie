@@ -13,6 +13,8 @@ namespace DemoApplicatie
             bool value1Correct = Double.TryParse(Console.ReadLine(), out number1);
 
             Console.WriteLine("Getal 2");
+            bool value1Correct = Double.TryParse(Console.ReadLine(), out number1);
+
             bool value2Correct = Double.TryParse(Console.ReadLine(), out number2);
 
             if (value1Correct && value2Correct)
