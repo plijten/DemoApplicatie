@@ -9,10 +9,10 @@ namespace DemoApplicatie
             double number1;
             double number2;
 
-            Console.WriteLine("Getal 1");
+            Console.WriteLine("Getal 10");
             bool value1Correct = Double.TryParse(Console.ReadLine(), out number1);
 
-            Console.WriteLine("Getal 2");
+            Console.WriteLine("Getal 20");
             bool value2Correct = Double.TryParse(Console.ReadLine(), out number2);
 
             if (value1Correct && value2Correct)
